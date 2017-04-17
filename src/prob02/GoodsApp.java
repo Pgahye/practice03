@@ -16,6 +16,14 @@ public class GoodsApp {
 			int price = scanner.nextInt();
 			int countStock = scanner.nextInt();
 
+			goods[i] = new Goods(name, price, countStock);
+
+		}
+
+		for (int i = 0; i < COUNT_GOODS; i++) {
+
+			goods[i].getGoods();
+
 		}
 
 		// 자원정리
